@@ -23,7 +23,9 @@ public class WaitUtility  extends Testbase
 	
 	public static WebElement explicitWaitforVisibilityOfElement(WebElement element) {
 		WebDriverWait webDriverWait = new WebDriverWait(driver, 20);
-		WebElement element2 = webDriverWait.until(ExpectedConditions.visibilityOf(element));
+		
+		WebElement element1 = getFluentWait().until(ExpectedConditions.visibilityOf(element));
+		WebElement element2 = webDriverWait.until(ExpectedConditions.visibilityOf(element1));
 		return element2;
 	}
 

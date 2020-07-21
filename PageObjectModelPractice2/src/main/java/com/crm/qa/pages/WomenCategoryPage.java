@@ -130,6 +130,7 @@ public void clickItemSelected() {
 	
 	public void writetoQuantityNeeded(String quantityWanted) {
 	
+		quantityWantedField.click();
 		WriteUtil.writeTo(quantityWantedField, quantityWanted);
 		getPriceOfItem();
 	}

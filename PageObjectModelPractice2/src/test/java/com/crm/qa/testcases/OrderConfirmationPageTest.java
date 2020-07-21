@@ -117,7 +117,7 @@ public class OrderConfirmationPageTest  extends Testbase
 		
 		
 	}
-/*	
+	
 	
 	@Test(priority = 1,dataProvider="getCRMTestData")
 	public void verifyAmountCalculatedSuccessfully(String fn, String ln,String email , String pwd , String day,String month, String year,String company,String add1, String add2, String city, String state, String pc,String mobileNumber,String quantity) throws InterruptedException 
@@ -246,7 +246,7 @@ public class OrderConfirmationPageTest  extends Testbase
 		
 	}
 		
-		*/
+		
 		
 	
 		

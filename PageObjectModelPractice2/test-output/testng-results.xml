@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="58229" started-at="2020-07-20T18:23:57 IST" finished-at="2020-07-20T18:24:55 IST">
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="233412" started-at="2020-07-21T08:52:12 IST" finished-at="2020-07-21T08:56:06 IST">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases" duration-ms="58229" started-at="2020-07-20T18:23:57 IST" finished-at="2020-07-20T18:24:55 IST">
+    <test name="Free CRM App Test Cases" duration-ms="233412" started-at="2020-07-21T08:52:12 IST" finished-at="2020-07-21T08:56:06 IST">
       <class name="com.crm.qa.testcases.OrderConfirmationPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@77e9807f]" name="setUp" is-config="true" duration-ms="19913" started-at="2020-07-20T18:23:57 IST" finished-at="2020-07-20T18:24:17 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="setUp" is-config="true" duration-ms="10659" started-at="2020-07-21T08:53:05 IST" finished-at="2020-07-21T08:53:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyOrderPlacedSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.OrderConfirmationPageTest@77e9807f]" name="verifyOrderPlacedSuccessfully" duration-ms="36519" started-at="2020-07-20T18:24:17 IST" data-provider="getCRMTestData" finished-at="2020-07-20T18:24:54 IST">
+        <test-method status="PASS" signature="verifyAmountCalculatedSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="verifyAmountCalculatedSuccessfully" duration-ms="13449" started-at="2020-07-21T08:53:15 IST" data-provider="getCRMTestData" finished-at="2020-07-21T08:53:29 IST">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,96 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[bhargavjsh96@gmail.com]]>
+                <![CDATA[bhargavjsh92@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bjoshi06#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1991]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[RH39]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[41102]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9910295845]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmountCalculatedSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="tearDown" is-config="true" duration-ms="1673" started-at="2020-07-21T08:53:29 IST" finished-at="2020-07-21T08:53:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="setUp" is-config="true" duration-ms="10529" started-at="2020-07-21T08:53:31 IST" finished-at="2020-07-21T08:53:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyOrderPlacedSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="verifyOrderPlacedSuccessfully" duration-ms="22190" started-at="2020-07-21T08:53:41 IST" data-provider="getCRMTestData" finished-at="2020-07-21T08:54:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhargav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhargavjsh92@gmail.com]]>
               </value>
             </param>
             <param index="3">
@@ -92,11 +181,549 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrderPlacedSuccessfully -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@77e9807f]" name="tearDown" is-config="true" duration-ms="872" started-at="2020-07-20T18:24:54 IST" finished-at="2020-07-20T18:24:55 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="tearDown" is-config="true" duration-ms="1894" started-at="2020-07-21T08:54:03 IST" finished-at="2020-07-21T08:54:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="setUp" is-config="true" duration-ms="10922" started-at="2020-07-21T08:54:05 IST" finished-at="2020-07-21T08:54:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTotalAmountCalculatedSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="verifyTotalAmountCalculatedSuccessfully" duration-ms="13724" started-at="2020-07-21T08:54:16 IST" data-provider="getCRMTestData" finished-at="2020-07-21T08:54:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhargav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhargavjsh92@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bjoshi06#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1991]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[RH39]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[41102]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9910295845]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalAmountCalculatedSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="tearDown" is-config="true" duration-ms="1575" started-at="2020-07-21T08:54:30 IST" finished-at="2020-07-21T08:54:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="setUp" is-config="true" duration-ms="10549" started-at="2020-07-21T08:54:32 IST" finished-at="2020-07-21T08:54:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTotalInOrdersHistoryPageShownCorrectly(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="verifyTotalInOrdersHistoryPageShownCorrectly" duration-ms="25361" started-at="2020-07-21T08:54:42 IST" data-provider="getCRMTestData" finished-at="2020-07-21T08:55:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhargav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhargavjsh92@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bjoshi06#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1991]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[RH39]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[41102]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9910295845]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalInOrdersHistoryPageShownCorrectly -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="tearDown" is-config="true" duration-ms="1435" started-at="2020-07-21T08:55:08 IST" finished-at="2020-07-21T08:55:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="setUp" is-config="true" duration-ms="10338" started-at="2020-07-21T08:55:09 IST" finished-at="2020-07-21T08:55:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTotalInPaymentPageShownCorrectly(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="verifyTotalInPaymentPageShownCorrectly" duration-ms="17962" started-at="2020-07-21T08:55:19 IST" data-provider="getCRMTestData" finished-at="2020-07-21T08:55:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhargav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhargavjsh92@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bjoshi06#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1991]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[RH39]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[41102]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9910295845]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalInPaymentPageShownCorrectly -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="tearDown" is-config="true" duration-ms="1548" started-at="2020-07-21T08:55:37 IST" finished-at="2020-07-21T08:55:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="setUp" is-config="true" duration-ms="10397" started-at="2020-07-21T08:55:39 IST" finished-at="2020-07-21T08:55:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTotalInShippingPageShownCorrectly(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="verifyTotalInShippingPageShownCorrectly" duration-ms="14368" started-at="2020-07-21T08:55:49 IST" data-provider="getCRMTestData" finished-at="2020-07-21T08:56:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhargav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhargavjsh92@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bjoshi06#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1991]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[RH39]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[41102]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9910295845]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalInShippingPageShownCorrectly -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.OrderConfirmationPageTest@2357d90a]" name="tearDown" is-config="true" duration-ms="1896" started-at="2020-07-21T08:56:04 IST" finished-at="2020-07-21T08:56:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.OrderConfirmationPageTest -->
+      <class name="com.crm.qa.testcases.MyAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.MyAccountPageTest@7f9fcf7f]" name="setUp" is-config="true" duration-ms="10652" started-at="2020-07-21T08:52:48 IST" finished-at="2020-07-21T08:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoutLoginSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.MyAccountPageTest@7f9fcf7f]" name="verifyLogoutLoginSuccessfully" duration-ms="4150" started-at="2020-07-21T08:52:59 IST" data-provider="getCRMTestData" finished-at="2020-07-21T08:53:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhargav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhargavjsh92@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bjoshi06#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1991]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[RH39]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[41102]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9910295845]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutLoginSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.MyAccountPageTest@7f9fcf7f]" name="tearDown" is-config="true" duration-ms="1540" started-at="2020-07-21T08:53:03 IST" finished-at="2020-07-21T08:53:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.MyAccountPageTest -->
+      <class name="com.crm.qa.testcases.CreateAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CreateAccountPageTest@44a664f2]" name="setUp" is-config="true" duration-ms="20241" started-at="2020-07-21T08:52:13 IST" finished-at="2020-07-21T08:52:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFormFilledSuccessfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.CreateAccountPageTest@44a664f2]" name="verifyFormFilledSuccessfully" duration-ms="13208" started-at="2020-07-21T08:52:33 IST" data-provider="getCRMTestData" finished-at="2020-07-21T08:52:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhargav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhargavjsh92@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bjoshi06#]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1991]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[RH39]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[41102]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[9910295845]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormFilledSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CreateAccountPageTest@44a664f2]" name="tearDown" is-config="true" duration-ms="1580" started-at="2020-07-21T08:52:47 IST" finished-at="2020-07-21T08:52:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.CreateAccountPageTest -->
     </test> <!-- Free CRM App Test Cases -->
   </suite> <!-- FREE CRM Application Test Automation Test Suite -->
 </testng-results>

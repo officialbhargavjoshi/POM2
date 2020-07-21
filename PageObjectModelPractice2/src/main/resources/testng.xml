@@ -10,9 +10,9 @@
 
 	<test name="Free CRM App Test Cases">
 		<classes>
-		<class name="com.crm.qa.testcases.CreateAccountPageTest"></class> 
-	 	<class name="com.crm.qa.testcases.MyAccountPageTest"></class>  
-		<class name="com.crm.qa.testcases.OrderConfirmationPageTest"></class>
+			<class name="com.crm.qa.testcases.CreateAccountPageTest"></class>  
+			<class name="com.crm.qa.testcases.MyAccountPageTest"></class>   
+			<class name="com.crm.qa.testcases.OrderConfirmationPageTest"></class> 
 
 		</classes>
 		

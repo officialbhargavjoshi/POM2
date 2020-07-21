@@ -76,10 +76,10 @@ public class MyAccountPageTest  extends Testbase
 //		createAccountPage = createAccountLinkPage.clickOnCreateAccountButton();		
 //		accountPage = createAccountPage.fillFormData(fn,  ln,email, pwd ,  day, month,  year, company, add1,  add2,  city,  state,  pc, mobileNumber);
 //		
-		accountPage = new MyAccountPage();
+		//accountPage = new MyAccountPage();
+		//createAccountLinkPage2 = accountPage.clickLogOut();
+		createAccountLinkPage2 = new CreateAccountLinkPage();
 		
-		//createAccountLinkPage2 = new CreateAccountLinkPage();
-		createAccountLinkPage2 = accountPage.clickLogOut();
 		createAccountLinkPage2.fillEmailAddressFieldSignIn(email);
 		createAccountLinkPage2.fillPassowrdFieldSignIn(pwd);
 		accountPage2 = createAccountLinkPage2.clickOnSubmitbutton();
