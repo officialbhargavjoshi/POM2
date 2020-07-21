@@ -119,7 +119,7 @@ public class OrderConfirmationPageTest  extends Testbase
 	}
 	
 	
-	@Test(priority = 1,dataProvider="getCRMTestData")
+	@Test(priority = 1,dataProvider="getCRMTestData" , groups = "AmountVerification")
 	public void verifyAmountCalculatedSuccessfully(String fn, String ln,String email , String pwd , String day,String month, String year,String company,String add1, String add2, String city, String state, String pc,String mobileNumber,String quantity) throws InterruptedException 
 	{
 		
@@ -138,7 +138,7 @@ public class OrderConfirmationPageTest  extends Testbase
 		
 		
 	}
-	@Test(priority = 1,dataProvider="getCRMTestData")
+	@Test(priority = 1,dataProvider="getCRMTestData", groups = "AmountVerification")
 	public void verifyTotalAmountCalculatedSuccessfully(String fn, String ln,String email , String pwd , String day,String month, String year,String company,String add1, String add2, String city, String state, String pc,String mobileNumber,String quantity) throws InterruptedException 
 	{
 		
@@ -162,7 +162,7 @@ public class OrderConfirmationPageTest  extends Testbase
 	
 		
 	}
-	@Test(priority = 1,dataProvider="getCRMTestData")
+	@Test(priority = 1,dataProvider="getCRMTestData", groups = "AmountVerification")
 	public void verifyTotalInShippingPageShownCorrectly(String fn, String ln,String email , String pwd , String day,String month, String year,String company,String add1, String add2, String city, String state, String pc,String mobileNumber,String quantity) throws InterruptedException 
 	{
 	
@@ -184,7 +184,7 @@ public class OrderConfirmationPageTest  extends Testbase
 		
 		
 	}
-	@Test(priority = 1,dataProvider="getCRMTestData")
+	@Test(priority = 1,dataProvider="getCRMTestData", groups = "AmountVerification")
 	public void verifyTotalInPaymentPageShownCorrectly(String fn, String ln,String email , String pwd , String day,String month, String year,String company,String add1, String add2, String city, String state, String pc,String mobileNumber,String quantity) throws InterruptedException 
 	{
 	
@@ -209,7 +209,7 @@ public class OrderConfirmationPageTest  extends Testbase
 		
 		
 	}
-	@Test(priority = 1,dataProvider="getCRMTestData")
+	@Test(priority = 1,dataProvider="getCRMTestData", groups = "AmountVerification")
 	public void verifyTotalInOrdersHistoryPageShownCorrectly(String fn, String ln,String email , String pwd , String day,String month, String year,String company,String add1, String add2, String city, String state, String pc,String mobileNumber,String quantity) throws InterruptedException 
 	{
 		
@@ -246,8 +246,13 @@ public class OrderConfirmationPageTest  extends Testbase
 		
 	}
 		
-		
-		
+		@Test(dependsOnGroups = "AmountVerification")
+		public void allAmountsVerifiedcorrectly() {
+			
+			int var = priceOfShippingInt +priceOfTotalProductsInt ;
+			Assert.assertTrue(totalAmount == var);
+			
+		}
 	
 		
 	

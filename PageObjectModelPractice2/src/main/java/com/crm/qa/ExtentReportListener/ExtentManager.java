@@ -29,7 +29,7 @@ public class ExtentManager  extends Testbase{
 
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		extent.setSystemInfo("Automation Tester", "Tehan Joshi");
+		extent.setSystemInfo("Automation Tester", "Bhargav Joshi");
 		extent.setSystemInfo("Organization", "TJ's");
 		extent.setSystemInfo("Build no", "27");
 
