@@ -25,7 +25,7 @@ import com.crm.qa.base.Testbase;
 
 public class TestUtil  extends Testbase{
 	
-	public static long PAGE_LOAD_TIMEOUT = 20;
+	public static long PAGE_LOAD_TIMEOUT = 40;
 	public static long IMPLICIT_WAIT = 10;
 	
 	public static String TESTDATA_SHEET_PATH = System.getProperty("user.dir") + "\\src\\main\\java\\com\\crm\\qa\\testdata\\Book1.xlsx";
