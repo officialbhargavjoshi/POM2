@@ -2,6 +2,7 @@ package com.crm.qa.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -13,6 +14,7 @@ import com.crm.qa.util.WriteUtil;
 public class CreateAccountLinkPage  extends Testbase  {
 	
 	@FindBy(id = "email_create")
+	@CacheLookup
 	WebElement emailField;
 	
 	@FindBy(id = "SubmitCreate")
@@ -53,7 +55,8 @@ public class CreateAccountLinkPage  extends Testbase  {
 	
 	public void fillEmailAddressFieldSignIn(String email) 
 	{
-		WriteUtil.writeTo(signInEmailField, email);
+		WebElement sElement = WaitUtility.explicitWaitforVisibilityOfElement(signInEmailField);
+		WriteUtil.writeTo(sElement, email);
 		
 	}
 	public void fillPassowrdFieldSignIn(String pwd) 

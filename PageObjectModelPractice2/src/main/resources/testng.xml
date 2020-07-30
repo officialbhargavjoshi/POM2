@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FREE CRM Application Test Automation Test Suite">
 
+
+<suite name="FREE CRM Application Test Automation Test Suite" parallel = "methods"  thread-count = "1" >
+<!-- -->
 
 <listeners>
-
 <listener class-name= "com.crm.qa.ExtentReportListener.ExtentListeners" />
 </listeners>
-
-	<test name="Free CRM App Test Cases">
+	<test name="AutomationPracticeSignupTillCheckout">	
+		 <!-- <groups>  
+      			<run>  
+         			<include name="AmountVerification"/>  
+      			</run>  
+ 		</groups> -->   
 		<classes>
-			<class name="com.crm.qa.testcases.CreateAccountPageTest"></class>  
-			<class name="com.crm.qa.testcases.MyAccountPageTest"></class>   
+			<!-- <class name="com.crm.qa.testcases.CreateAccountPageTest"></class>  
+			<class name="com.crm.qa.testcases.MyAccountPageTest"></class>    -->
+			<class name="com.crm.qa.testcases.OrderConfirmationPageTest">
+					<!-- <methods>
+        				<include name=".*Correctly.*"/>
+        				<exclude name="verifyTotalAmountCalculatedSuccessfully"/>
+      				</methods>
+			 -->
+			</class> 
+		</classes>		
+	</test>	
+	<!-- <test name="AutomationPracticeLoginTillCheckout">
+		<classes>
+			 
 			<class name="com.crm.qa.testcases.OrderConfirmationPageTest"></class> 
-
-		</classes>
-		
-		
+		</classes>		
 	</test>
-	
-	
-	
+	 -->	
 </suite>

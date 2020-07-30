@@ -23,7 +23,7 @@ public class ExtentListeners implements ITestListener {
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
 	//static String fileName = "Extent.html";
 
-	private static ExtentReports extent = ExtentManager.createInstance(System.getProperty("user.dir")+"\\reports\\"+fileName);
+	private static ExtentReports extent = ExtentManager.createInstance(System.getProperty("user.dir")+"\\target\\reports\\"+fileName);
 
 	public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<ExtentTest>();
 

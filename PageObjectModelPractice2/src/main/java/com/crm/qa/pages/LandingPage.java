@@ -32,7 +32,9 @@ public class LandingPage extends Testbase {
 	
 	public CreateAccountLinkPage clickOnCreateAccountPageLink() 
 	{
-		ActionsClassUtils.clickByElement(driver,signInLink );
+		//ActionsClassUtils.clickByElement(driver,signInLink );
+		
+		signInLink.click();
 		return new CreateAccountLinkPage();
 	}	
 	

@@ -84,6 +84,8 @@ public class Testbase {
 		eventFiringWebDriver = new EventFiringWebDriver(driver);
 		webEventListener = new WebEventListener();
 		eventFiringWebDriver.register(webEventListener);
+		
+		
 		driver = eventFiringWebDriver;
 		
 		javascriptExecutor = (JavascriptExecutor) driver;

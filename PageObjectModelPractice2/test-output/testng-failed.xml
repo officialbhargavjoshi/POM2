@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]" parallel="methods">
   <listeners>
     <listener class-name="com.crm.qa.ExtentReportListener.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Free CRM App Test Cases(failed)">
+  <test thread-count="2" name="AutomationPracticeSignupTillCheckout(failed)" parallel="methods">
     <classes>
       <class name="com.crm.qa.testcases.OrderConfirmationPageTest">
         <methods>
-          <include name="verifyOrderPlacedSuccessfully" invocation-numbers="0"/>
+          <include name="verifyAmountCalculatedSuccessfully"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.OrderConfirmationPageTest -->
     </classes>
-  </test> <!-- Free CRM App Test Cases(failed) -->
+  </test> <!-- AutomationPracticeSignupTillCheckout(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->

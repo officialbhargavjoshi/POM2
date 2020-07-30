@@ -9,8 +9,9 @@ public class WriteUtil  extends Testbase {
 	public static void  writeTo(WebElement element , String emailAddress)
 	{
 		//element.click();
-		element.clear();
-		element.sendKeys(emailAddress);
+		WebElement sElement = WaitUtility.explicitWaitforVisibilityOfElement(element);
+		sElement.clear();
+		sElement.sendKeys(emailAddress);
 	}
 	
 

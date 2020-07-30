@@ -28,7 +28,7 @@ public class OrderConfirmationPageTest  extends Testbase
 	
 
 	LandingPage landingPage;
-	CreateAccountLinkPage createAccountLinkPage;
+	//CreateAccountLinkPage createAccountLinkPage;
 	CreateAccountLinkPage createAccountLinkPage2;
 	CreateAccountPage createAccountPage;
 	TestUtil testUtil;
@@ -59,22 +59,21 @@ public class OrderConfirmationPageTest  extends Testbase
 	
 	
 	
-	@DataProvider
+	@DataProvider(parallel =true)
 	public Object[][] getCRMTestData(){
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
 	
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void setUp() {
 		initialization();
 		testUtil = new TestUtil();
 		
 		//contactsPage = new ContactsPage();
 		landingPage = new LandingPage();
-		createAccountLinkPage = landingPage.clickOnCreateAccountPageLink();
-		
+		createAccountLinkPage2 = landingPage.clickOnCreateAccountPageLink();
 		
 		
 		
@@ -89,7 +88,9 @@ public class OrderConfirmationPageTest  extends Testbase
 	public void verifyOrderPlacedSuccessfully(String fn, String ln,String email , String pwd , String day,String month, String year,String company,String add1, String add2, String city, String state, String pc,String mobileNumber,String quantity) throws InterruptedException 
 	{
 		
-		createAccountLinkPage2 = new CreateAccountLinkPage();
+		
+		
+		//createAccountLinkPage2 = new CreateAccountLinkPage();
 		createAccountLinkPage2.fillEmailAddressFieldSignIn(email);
 		createAccountLinkPage2.fillPassowrdFieldSignIn(pwd);
 		accountPage2 = createAccountLinkPage2.clickOnSubmitbutton();
@@ -122,7 +123,7 @@ public class OrderConfirmationPageTest  extends Testbase
 	@Test(priority = 1,dataProvider="getCRMTestData" , groups = "AmountVerification")
 	public void verifyAmountCalculatedSuccessfully(String fn, String ln,String email , String pwd , String day,String month, String year,String company,String add1, String add2, String city, String state, String pc,String mobileNumber,String quantity) throws InterruptedException 
 	{
-		
+
 		createAccountLinkPage2 = new CreateAccountLinkPage();
 		createAccountLinkPage2.fillEmailAddressFieldSignIn(email);
 		createAccountLinkPage2.fillPassowrdFieldSignIn(pwd);
@@ -138,7 +139,8 @@ public class OrderConfirmationPageTest  extends Testbase
 		
 		
 	}
-	@Test(priority = 1,dataProvider="getCRMTestData", groups = "AmountVerification")
+	
+	/*@Test(priority = 1,dataProvider="getCRMTestData", groups = "AmountVerification")
 	public void verifyTotalAmountCalculatedSuccessfully(String fn, String ln,String email , String pwd , String day,String month, String year,String company,String add1, String add2, String city, String state, String pc,String mobileNumber,String quantity) throws InterruptedException 
 	{
 		
@@ -161,8 +163,8 @@ public class OrderConfirmationPageTest  extends Testbase
 		
 	
 		
-	}
-	@Test(priority = 1,dataProvider="getCRMTestData", groups = "AmountVerification")
+	}*/
+	/*@Test(priority = 1,dataProvider="getCRMTestData", groups = "AmountVerification")
 	public void verifyTotalInShippingPageShownCorrectly(String fn, String ln,String email , String pwd , String day,String month, String year,String company,String add1, String add2, String city, String state, String pc,String mobileNumber,String quantity) throws InterruptedException 
 	{
 	
@@ -254,9 +256,9 @@ public class OrderConfirmationPageTest  extends Testbase
 			
 		}
 	
-		
+		*/
 	
-	@AfterMethod
+	@AfterMethod()
 	public void tearDown() {
 		driver.quit();
 	}
